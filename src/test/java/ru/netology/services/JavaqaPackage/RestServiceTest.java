@@ -17,7 +17,6 @@ public class RestServiceTest {
 
         int actual = service.calcRest(income, expenses, threshold);
 
-
         Assertions.assertEquals(income, expenses, threshold);
 
 
