@@ -1,5 +1,7 @@
 package ru.netology.services.JavaqaPackage;
+
 public class RestService {
+    
     public int calcRest(int income, int expenses, int threshold){
         int count = 0;
         int money = 0;
