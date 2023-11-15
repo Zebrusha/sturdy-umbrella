@@ -1,13 +1,14 @@
 package ru.netology.services.JavaqaPackage;
+
 public class RestService {
-    public int calcRest(int income, int expenses, int threshold){
+    public int calcRest(int income, int expenses, int threshold) {
         int count = 0;
         int money = 0;
 
         for (int month = 0; month < 12; month++) {
-            if (money >= threshold){
-               count++;
-               money = (money - expenses)/3;
+            if (money >= threshold) {
+                count++;
+                money = (money - expenses) / 3;
             } else {
                 money = money + income;
             }
